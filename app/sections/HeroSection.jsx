@@ -39,20 +39,15 @@ function HeroSection() {
           className="text-[#10adad] md:text-xl"
           duration={2}
           filter={false}
-          words="Radith YuGan"
+          words="Imandi Upesha"
         />
         <TextGenerateEffect
           className="text-3xl font-extrabold md:text-5xl"
           duration={2}
           filter={false}
-          words="Full Stack"
+          words="Project Manager"
         />
-        <TextGenerateEffect
-          className="mb-4 text-3xl font-extrabold md:text-5xl"
-          duration={2}
-          filter={false}
-          words="Web Developer"
-        />
+        
         <TextGenerateEffect
           className="mb-4 text-black/60 max-w-lg"
           duration={1}
@@ -60,7 +55,7 @@ function HeroSection() {
           words={paraText}
         />
 
-        <Button className="text-white bg-[#10adad] hover:bg-[#0B7474] mt-4">
+        <Button className="text-white bg-[#7c64f6] hover:bg-[#a594f9] mt-4">
           Hire Me
         </Button>
 

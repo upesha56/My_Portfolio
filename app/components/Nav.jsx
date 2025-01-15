@@ -41,7 +41,7 @@ function Nav({ className }) {
             alt="logo"
             className="transition-transform duration-300 cursor-pointer hover:-rotate-6"
             width={150}
-            height={60}
+            height={30}
           />
         </div>
 
@@ -49,7 +49,7 @@ function Nav({ className }) {
           <ul className="flex items-center gap-6">{renderLinks()}</ul>
           <a
             href="/CV.pdf" // Replace with the actual file path
-            download="Yugan Wijerathna CV.pdf" // The name of the downloaded file
+            download="Imandi_Upesha_CV.pdf" // The name of the downloaded file
             className="text-white bg-[#10adad] px-4 py-2 rounded-md hover:bg-[#0B7474]"
           >
             Download CV
