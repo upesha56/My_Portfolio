@@ -4,7 +4,7 @@ import {Certificates} from '../utils/dataBase';
 function CertificateSection () {
      return (
         <section className="max-w-6xl mx-auto md:my-[6rem]"
-          id="certificate">
+          id="Certificate">
 
           <h2 className="mb-4 text-3xl font-bold text-center lg:mb-8">
             certificate
