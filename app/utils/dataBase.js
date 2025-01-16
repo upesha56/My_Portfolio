@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 export const navLinks = [
   { id: 'home', label: 'Home' },
   { id: 'about-Me', label: 'About Me' },
-  { id: 'services', label: 'Services' },
+  { id: 'Certificate', label: 'Certificate' },
   { id: 'projects', label: 'Projects' },
   // { id: 'testimonials', label: 'Testimonials' },
   { id: 'contact', label: 'Contact' },
@@ -71,7 +71,7 @@ export const projects = [
 ];
 
 
-export const services = [
+export const Certificates = [
   {
     imgSrc: '/UI.png',
     altText: 'UI/UX Design',

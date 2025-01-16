@@ -32,7 +32,7 @@ function Footer() {
   return (
     <footer className="mt-[3rem] flex flex-col items-center justify-center gap-6 md:gap-12 py-0 bg-[#f8f8f8]">
       <Image
-        src="/logo-h.png"
+        src="/logo.png"
         alt="logo"
         className="transition-transform mt-8 duration-300 cursor-pointer hover:-rotate-6"
         width={200}
@@ -45,7 +45,7 @@ function Footer() {
 
       <p className="text-sm  text-black/60 relative -top-8">
       Copyright @2025 {''}
-      <span className="text-[#10adad] ">yugan wijerathna </span>
+      <span className="text-[#10adad] ">Imandi Upesha </span>
       All right reserved. inc.
       </p>
     </footer>

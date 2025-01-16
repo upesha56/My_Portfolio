@@ -18,16 +18,16 @@ function HeroSection() {
       </Link>
     ));
 
-  const paraText = `Full Stack Development involves expertise in both front-end and back-end technologies, 
-    enabling seamless web application experiences from design to database management. 
-    I am skilled in creating efficient, responsive applications using a range of tools 
-    across the development spectrum.`;
+  const paraText = `Project Management involves planning, organizing, and leading projects 
+  to successful completion. I excel in team coordination, resource management, and delivering 
+  results aligned with business goals in dynamic environments.`;
 
   return (
     <section
       id="home"
       className="grid max-w-6xl gap-8 mx-auto my-6 md:my-12 md:grid-cols-2"
     >
+      {/* Left Section */}
       <div className="flex flex-col items-center justify-center text-center md:text-left">
         <TextGenerateEffect
           className="text-base font-semibold md:text-xl -z-10 relative"
@@ -47,37 +47,37 @@ function HeroSection() {
           filter={false}
           words="Project Manager"
         />
-        
         <TextGenerateEffect
           className="mb-4 text-black/60 max-w-lg"
           duration={1}
           filter={false}
           words={paraText}
         />
-
         <Button className="text-white bg-[#7c64f6] hover:bg-[#a594f9] mt-4">
           Hire Me
         </Button>
 
+        {/* Social Icons for Mobile */}
         <div className="flex items-center gap-4 mt-4 md:hidden">
           {renderSocialIcons()}
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center md:items-end overflow-hidden">
-        <Image 
+      {/* Right Section */}
+      <div className="flex flex-col items-center justify-center md:items-end md:justify-center overflow-hidden relative">
+        <Image
           src="/profile.png"
           alt="Profile image"
-          height={800}
-          width={800}
+          height={50}
+          width={270}
           quality={100}
-          className="rounded-lg md:scale-150"
+          className="rounded-lg md:scale-125 md:translate-x-[-10px]" // Adjust scale and position for alignment
           priority
         />
-
-        <div className="hidden mt-4 gap-4  md:flex items-center justify-center relative z-50 w-full">
+        {/* Social Icons for Desktop */}
+        <div className="hidden mt-4 gap-4 md:flex items-center justify-center w-full">
           {renderSocialIcons()}
-        </div>  
+        </div>
       </div>
     </section>
   );
