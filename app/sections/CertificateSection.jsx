@@ -7,7 +7,7 @@ function CertificateSection () {
           id="Certificate">
 
           <h2 className="mb-4 text-3xl font-bold text-center lg:mb-8">
-            Certificate
+            Certificates
           </h2>
 
           <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">

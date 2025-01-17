@@ -54,7 +54,7 @@ function HeroSection() {
           filter={false}
           words={paraText}
         />
-        <Button className="text-white bg-[#7c64f6] hover:bg-[#a594f9] mt-4">
+        <Button className="text-white bg-[#366faf] hover:bg-[#648ec2] mt-4">
           Hire Me
         </Button>
 

@@ -75,23 +75,37 @@ export const Certificates = [
   {
     imgSrc: '/UI.png',
     altText: 'UI/UX Design',
-    title: 'UI/UX Design',
+    title: ' Project Management Fundamentals | Micorsoft',
     description:
-      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+      'The Project Management Fundamentals Certificate showcases leadership, teamwork, strategic planning, and decision-making skills for effective project management.',
   },
   {
     imgSrc: '/web.png',
     altText: 'Web  Design',
-    title: 'Web Application Design',
+    title: ' Beginner to Project Manager | Udemy',
     description:
-      'Designing responsive and visually stunning websites that provide seamless navigation across all devices.',
+      'Udemy Project management course builds essential skills in planning, execution and leadership for successful project management.',
   },
   {
     imgSrc: '/app.png',
     altText: 'App Design',
-    title: 'Mobile Application Design',
+    title: ' Agile Project Management | Alison',
     description:
-      'Creating sleek and functional mobile app designs that offer a delightful user experience on both iOS and Android.',
+      'Agile Project Management course enhanced my skills in Agile pronciples, iterative planning, team collaboration, and adaptive project delivery.',
+  },
+  {
+    imgSrc: '/bi.png',
+    altText: 'App Design',
+    title: ' Power BI for Beginners | Simplilearn',
+    description:
+      'I have gained data visualization, dashboard creation, and insights generation for impactful business decision-making by this course.',
+  },
+  {
+    imgSrc: '/hp.png',
+    altText: 'App Design',
+    title: '  Effective Leadership | hp LIFE',
+    description:
+      'Develops skills in team management, decision-making, communication, and inspiring others for organizational success.',
   },
   // {
   //   imgSrc: '/graphic-design.png',

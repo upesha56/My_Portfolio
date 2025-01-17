@@ -13,8 +13,8 @@ export default function ProjectCard({ imgSrc, altText, title }) {
       duration-500 bg-black bg-opacity-0 rounded-lg group-hover:bg-opacity-75">
         <div className="text-center transition-opacity duration-500 opacity-0 group-hover:opasity-100">
             <h3 className="text-white text-xl font-semibold">{title}</h3>
-            <button className="px-4 py-2 text-sm font-semibold text-white transition duration-500 bg-[#a594f9]
-            rounded-md hover:bg-[#a594f9]">
+            <button className="px-4 py-2 text-sm font-semibold text-white transition duration-500 bg-[#366faf]
+            rounded-md hover:bg-[#648ec2]">
                 Preview live Site
             </button>
         </div>

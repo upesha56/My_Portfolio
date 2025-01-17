@@ -2,9 +2,9 @@ import Image from "next/image";
 import Progress from "../components/Progress";  // Ensure the correct path to Progress component
 
 const skills = [
-    { name: "JavaScript", value: 80 },
-    { name: "React", value: 75 },
-    { name: "CSS", value: 85 },
+    { name: "Microsoft Project", value: 80 },
+    { name: "Power BI", value: 75 },
+    { name: "Trello", value: 85 },
     // Add more skills as needed
 ];
 

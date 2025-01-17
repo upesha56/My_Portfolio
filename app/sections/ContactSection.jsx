@@ -69,7 +69,7 @@ function ContactSection() {
           onChange={(e) => setMessage(e.target.value)}
           className="px-4 py-2 border border-gray-400 rounded-lg"
         />
-        <Button type="submit" className="text-white bg-[#7c64f6] hover:bg-[#a594f9]">
+        <Button type="submit" className="text-white bg-[#366faf] hover:bg-[#648ec2]">
           Contact me
         </Button>
       </form>

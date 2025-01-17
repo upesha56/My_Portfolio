@@ -10,7 +10,7 @@ function Progress({ name, value }) {
                     className="absolute top-0 left-0 h-full rounded-full"
                     style={{
                         width: `${value}%`,
-                        background: 'linear-gradient(to right, #5E46C8, #7c64f6, #a594f9)',
+                        background: 'linear-gradient(to right, #06305c, #366faf, #648ec2)',
                     }}
                 ></div>
             </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function CertificateCard({ imgSrc, altText, title, description }) {
   return (
-    <div className="p-6 bg-white hover:bg-[#a594f9] hover:cursor-pointer transition duration-500 rounded-lg shadow-lg hover:shadow-xl">
+    <div className="p-6 bg-white hover:bg-[#648ec2] hover:cursor-pointer transition duration-500 rounded-lg shadow-lg hover:shadow-xl">
       <div className="flex justify-center mb-4">
         <Image
           src={imgSrc}
