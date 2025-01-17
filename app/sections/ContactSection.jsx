@@ -54,11 +54,11 @@ function ContactSection() {
   return (
     <section id="contact" className="max-w-6xl mx-auto my-[3rem] md:my-[6rem]">
       <h2 className="mb-4 text-3xl font-bold text-center lg:mb-8">
-        Let's Design Together
+        Let's Plan Together
       </h2>
 
       <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
-        I am here to bring your concept to life. Let's create something amazing together.
+      Let’s Plan and Execute Together for Successful Project Outcomes.
       </p>
 
       <form className="flex flex-col items-center justify-center gap-6 mt-6 md:flex-row" onSubmit={handleSubmit}>
@@ -69,7 +69,7 @@ function ContactSection() {
           onChange={(e) => setMessage(e.target.value)}
           className="px-4 py-2 border border-gray-400 rounded-lg"
         />
-        <Button type="submit" className="text-white bg-[#10adad] hover:bg-[#0B7474]">
+        <Button type="submit" className="text-white bg-[#7c64f6] hover:bg-[#a594f9]">
           Contact me
         </Button>
       </form>

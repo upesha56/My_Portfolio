@@ -30,8 +30,8 @@ function ProjectsSection() {
             key={category}
             className={`px-4 py-2 rounded-md border text-sm transition-all duration-200 ${
               selectedCategory === category
-                ? 'bg-[#0B7474] text-white border-[#0B7474]'
-                : 'bg-gray-100 border-gray-300 text-black hover:bg-gray-200 hover:border-[#0B7474]'
+                ? 'bg-[#a594f9] text-white border-[#a594f9]'
+                : 'bg-gray-100 border-gray-300 text-black hover:bg-gray-200 hover:border-[#a594f9]'
             }`}
             onClick={() => setSelectedCategory(category)}
           >

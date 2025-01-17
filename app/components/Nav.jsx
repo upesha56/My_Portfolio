@@ -50,7 +50,7 @@ function Nav({ className }) {
           <a
             href="/CV.pdf" // Replace with the actual file path
             download="Imandi_Upesha_CV.pdf" // The name of the downloaded file
-            className="text-white bg-[#10adad] px-4 py-2 rounded-md hover:bg-[#0B7474]"
+            className="text-white bg-[#7c64f6] px-4 py-2 rounded-md hover:bg-[#a594f9]"
           >
             Download CV
           </a>
@@ -72,7 +72,7 @@ function Nav({ className }) {
             <a
               href="/CV.pdf" // Replace with the actual file path
               download="My-CV.pdf" // The name of the downloaded file
-              className="text-white bg-[#10adad] px-4 py-2 rounded-md hover:bg-[#0B7474]"
+              className="text-white bg-[#7c64f6] px-4 py-2 rounded-md hover:bg-[#a594f9]"
             >
               Download CV
             </a>

@@ -7,12 +7,12 @@ function CertificateSection () {
           id="Certificate">
 
           <h2 className="mb-4 text-3xl font-bold text-center lg:mb-8">
-            certificate
+            Certificate
           </h2>
 
           <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
             {''}
-             i offer a range of UI/UX design ,user friendly interface and visually stricking design from web app to branding solluition
+            My certificates showcase dedication, skills, knowledge, and professional growth effectively.
           </p>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
