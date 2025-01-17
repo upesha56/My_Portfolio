@@ -40,7 +40,7 @@ Throughout my life, I have encountered numerous scenarios where applying project
  my ability to implement these methods systematically in a professional context.
                 </p>
                 {skills.map((skill, index)=> (
-                    <progress
+                    <Progress
                         key={index}
                         name={skill.name}
                         value={skill.value}

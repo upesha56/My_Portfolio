@@ -3,6 +3,7 @@ import Image from "next/image";
 import { socialLinks } from "../utils/dataBase";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Button from "../components/Button"; // adjust path as needed
+import { Scale } from "lucide-react";
 
 function HeroSection() {
   const renderSocialIcons = () =>
@@ -28,7 +29,7 @@ function HeroSection() {
       className="grid max-w-6xl gap-8 mx-auto my-6 md:my-12 md:grid-cols-2"
     >
       {/* Left Section */}
-      <div className="flex flex-col items-center justify-center text-center md:text-left">
+      <div className="flex flex-col items-center justify-center text-center md:text-left scale-125 ">
         <TextGenerateEffect
           className="text-base font-semibold md:text-xl -z-10 relative"
           duration={2}
@@ -64,7 +65,7 @@ function HeroSection() {
       </div>
 
       {/* Right Section */}
-      <div className="flex flex-col items-center justify-center md:items-end md:justify-center overflow-hidden relative">
+      <div className="flex flex-col items-center justify-center md:items-end md:justify-center relative">
         <Image
           src="/profile.png"
           alt="Profile image"

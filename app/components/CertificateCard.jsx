@@ -1,23 +1,21 @@
 import Image from "next/image";
 
-function CertificateCard ({imgSrc, altText,title,description}) {
+function CertificateCard({ imgSrc, altText, title, description }) {
   return (
-    <div className='p-6 mg-[#f8f8f8] hover:cursor-pointer
-    hover:bg-[#7DC2C2] transition duration-500 rounded-lg
-    shadow-md'>
+    <div className="p-6 bg-white hover:bg-[#7DC2C2] hover:cursor-pointer transition duration-500 rounded-lg shadow-lg hover:shadow-xl">
+      <div className="flex justify-center mb-4">
         <Image
-            src={imgSrc}
-            width={49}
-            height={48}
-            alt={altText}
-            className='mb-4'
+          src={imgSrc}
+          width={300}
+          height={150}  // Adjusted to maintain a better aspect ratio for certificates
+          alt={altText}
+          className="object-contain"  // Ensures the image scales properly
         />
-        <h3 className='mb-2 text-xl font-bold'>{title}</h3>
-        <p className='text-black/60'>{description}</p>
-
+      </div>
+      <h3 className="text-2xl font-semibold text-gray-800 mb-2">{title}</h3>
+      <p className="text-gray-600 text-sm">{description}</p>
     </div>
   );
-  
 }
 
 export default CertificateCard;
