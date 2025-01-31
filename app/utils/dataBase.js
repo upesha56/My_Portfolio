@@ -11,13 +11,13 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    href: 'https://www.linkedin.com/in/radith-yugan-526966302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    href: 'https://www.linkedin.com/in/imandi-upesha-2999a82a1/',
     icon: <FaLinkedin className="size-6" />,
     label: 'LinkedIn',
   },
  
   {
-    href: 'https://github.com/RdhYuGaan',
+    href: 'https://github.com/upesha56',
     icon: <FaGithub className="size-6" />,
     label: 'GitHub',
   },
